@@ -14,7 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * TICKET-206: LoggingModule
- *
+ * Ref #6
  * Purpose:
  * - Handles LOGGING intent (workout, food, activity)
  * - Extracts basic signals from user message
