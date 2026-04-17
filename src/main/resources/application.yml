@@ -1,0 +1,4 @@
+nutrition:
+  api:
+    url: https://api.api-ninjas.com/v1/nutrition
+    key: YOUR_API_KEY_HERE
