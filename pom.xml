@@ -12,10 +12,10 @@
 		<relativePath />
 	</parent>
 
-	<groupId>com.logyourmeals</groupId>
+	<groupId>com.lifeos</groupId>
 	<artifactId>api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>logyourmeals</name>
+	<name>lifeos</name>
 
 	<properties>
 		<java.version>21</java.version>
