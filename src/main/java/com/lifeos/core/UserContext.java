@@ -34,7 +34,7 @@ public class UserContext {
     private final String requestId;
 
     // Core user info
-    private String userId;
+    private UUID userId;
     private String rawMessage;
 
     // Intent (DISCOVERY, LOGGING, QUERY, RESPONSE)
@@ -74,11 +74,11 @@ public class UserContext {
         return requestId;
     }
 
-    public String getUserId() {
+    public UUID getUserId() {
         return userId;
     }
 
-    public void setUserId(String userId) {
+    public void setUserId(UUID userId) {
         this.userId = userId;
         log.info("[CONTEXT] userId set={}", userId);
     }
